@@ -14,3 +14,8 @@ var b = 24;
 console.log(b);
 var b = 25;
 console.log(b); // This will work because 'var' allows redeclaration of the same variable within the same scope. However, it is generally recommended to use 'let' or 'const' instead of 'var' to avoid potential issues with variable hoisting and scope.
+
+ex();
+function ex(){
+    console.log("This is an example of an arrow function.");
+}
